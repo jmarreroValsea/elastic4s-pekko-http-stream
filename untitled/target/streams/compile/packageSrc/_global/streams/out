@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/jorge.marrero/Documents/GitHub/jmarrero/elastic4s-pekko-http-stream/untitled/target/scala-2.12/elastic4s-pekko-http-stream_2.12-1.0.0-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sksamuel/elastic4s/pekko/http/streams/ReactiveElastic.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jorge.marrero/Documents/GitHub/jmarrero/elastic4s-pekko-http-stream/untitled/src/main/scala/com/sksamuel/elastic4s/pekko/http/streams/ReactiveElastic.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sksamuel/elastic4s/pekko/http/streams/ScrollPublisher.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jorge.marrero/Documents/GitHub/jmarrero/elastic4s-pekko-http-stream/untitled/src/main/scala/com/sksamuel/elastic4s/pekko/http/streams/ScrollPublisher.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/sksamuel/elastic4s/pekko/http/streams/BulkIndexingSubscriber.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jorge.marrero/Documents/GitHub/jmarrero/elastic4s-pekko-http-stream/untitled/src/main/scala/com/sksamuel/elastic4s/pekko/http/streams/BulkIndexingSubscriber.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

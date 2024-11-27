@@ -1,0 +1,45 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(publish, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: publish[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /Users/jorge.marrero/Documents/GitHub/jmarrero/elastic4s-pekko-http-stream/untitled/target/scala-2.12/elastic4s-pekko-http-stream_2.12-1.0.0.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /Users/jorge.marrero/Documents/GitHub/jmarrero/elastic4s-pekko-http-stream/untitled/target/scala-2.12/api...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/jorge.marrero/Documents/GitHub/jmarrero/elastic4s-pekko-http-stream/untitled/src/main/scala/com/sksamuel/elastic4s/pekko/http/streams/ScrollPublisher.scala:155:24: non-variable type argument com.sksamuel.elastic4s.requests.searches.SearchResponse in type pattern com.sksamuel.elastic4s.RequestSuccess[com.sksamuel.elastic4s.requests.searches.SearchResponse] is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case Success(resp: RequestSuccess[SearchResponse]) if resp.result.isTimedOut =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/jorge.marrero/Documents/GitHub/jmarrero/elastic4s-pekko-http-stream/untitled/src/main/scala/com/sksamuel/elastic4s/pekko/http/streams/ScrollPublisher.scala:160:24: non-variable type argument com.sksamuel.elastic4s.requests.searches.SearchResponse in type pattern com.sksamuel.elastic4s.RequestSuccess[com.sksamuel.elastic4s.requests.searches.SearchResponse] is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case Success(resp: RequestSuccess[SearchResponse]) if resp.result.isEmpty =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/jorge.marrero/Documents/GitHub/jmarrero/elastic4s-pekko-http-stream/untitled/src/main/scala/com/sksamuel/elastic4s/pekko/http/streams/ScrollPublisher.scala:167:24: non-variable type argument com.sksamuel.elastic4s.requests.searches.SearchResponse in type pattern com.sksamuel.elastic4s.RequestSuccess[com.sksamuel.elastic4s.requests.searches.SearchResponse] is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case Success(resp: RequestSuccess[SearchResponse]) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/jorge.marrero/Documents/GitHub/jmarrero/elastic4s-pekko-http-stream/untitled/src/main/scala/com/sksamuel/elastic4s/pekko/http/streams/BulkIndexingSubscriber.scala:172:13: abstract type pattern T is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case t: T =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[33mwarn[0m] [0m[0mversionScheme setting is empty; set `ThisBuild / versionScheme := Some("early-semver")`, `Some("semver-spec")` or `Some("pvp")`[0m
+[0m[[0m[33mwarn[0m] [0m[0mso tooling can use it for eviction errors etc - https://www.scala-sbt.org/1.x/docs/Publishing.html[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Repository for publishing is not specified.[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.sys.package$.error(package.scala:30)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Classpaths$.$anonfun$getPublishTo$1(Defaults.scala:3971)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Option.getOrElse(Option.scala:189)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Classpaths$.getPublishTo(Defaults.scala:3971)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Classpaths$.$anonfun$ivyBaseSettings$53(Defaults.scala:3324)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:69)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:292)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:840)[0m
+[0m[[0m[31merror[0m] [0m[0m([31mpublishConfiguration[0m) Repository for publishing is not specified.[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed Nov 27, 2024, 3:24:24 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
