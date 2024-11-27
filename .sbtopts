@@ -1,0 +1,7 @@
+-J-Xms2G
+-J-Xmx4G
+-J-Xss1024M
+-J-XX:MaxMetaspaceSize=2048M
+-Dsbt.repository.config=project/repositories
+-Dsbt.override.build.repos=true
+-Dsbt.boot.credentials=.sbt/.credentials
