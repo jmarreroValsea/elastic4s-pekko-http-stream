@@ -1,8 +1,8 @@
-ThisBuild / version := "8.15.0"
+ThisBuild / version := "0.0.1-SNAPSHOT"
 
 ThisBuild / scalaVersion := "2.13.14"
 
-val PekkoVersion = "1.1.2"
+val PekkoVersion = "1.0.2"
 val elastic4sVersion8 = "8.15.0"
 lazy val pekkoActor = "org.apache.pekko" %% "pekko-actor" % PekkoVersion
 lazy val pekkoActorTyped = "org.apache.pekko" %% "pekko-actor-typed" % PekkoVersion
